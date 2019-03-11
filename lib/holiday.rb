@@ -29,6 +29,8 @@ holiday_hash.each do |season, holiday_names_hash|
   if season == :winter
     holiday_names_hash.each do |holiday_name, supplies| 
       supplies << supply 
+    end 
+  end 
 end
 
 
